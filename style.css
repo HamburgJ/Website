@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'HamburgJ';
-    src: url("/hamburgj.ttf"); /* IE9 Compat Modes */
-    src: url("/hamburgj.ttf") format('embedded-opentype'), /* IE6-IE8 */
-         url("/hamburgj.ttf") format('woff2'), /* Super Modern Browsers */
-         url("/hamburgj.ttf") format('woff'), /* Pretty Modern Browsers */
-         url("/hamburgj.ttf")  format('truetype'), /* Safari, Android, iOS */
-         url("/hamburgj.ttf") format('svg'); /* Legacy iOS */
+    src: url("hamburgj.ttf"); /* IE9 Compat Modes */
+    src: url("hamburgj.ttf") format('embedded-opentype'), /* IE6-IE8 */
+         url("hamburgj.ttf") format('woff2'), /* Super Modern Browsers */
+         url("hamburgj.ttf") format('woff'), /* Pretty Modern Browsers */
+         url("hamburgj.ttf")  format('truetype'), /* Safari, Android, iOS */
+         url("hamburgj.ttf") format('svg'); /* Legacy iOS */
   }
 :root{
     --darkgray: #877b52;
