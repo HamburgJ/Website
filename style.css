@@ -236,6 +236,13 @@
         opacity:0;
     }
 }
+@media (pointer:none), (pointer:coarse) {
+    #main-img{
+        width: 0;
+        height: 0;
+        opacity:0;
+    }
+}
 .main-content{
     justify-self: start;
     margin-left: 10%;
@@ -310,7 +317,14 @@
 }
 
 /* cards */
+.featured-container h1{
+    color: var(--white);
+    font-size: 5rem;
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
 
+}
 @media (min-width: 821px) {
     .project-card{
         display:flex;
@@ -382,8 +396,6 @@
 .header-container h1{
     font-size: 2.5rem;
 }
-
-
 
 .project-card img{
     height:100%;
