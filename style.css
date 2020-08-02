@@ -99,6 +99,10 @@
         position: relative;
     }
 
+    .span{
+        color: var(--white);
+    }
+    
     .nav-menu {
         display: grid;
         grid-template-columns: auto;
@@ -114,6 +118,7 @@
 
     #navbar-logo{
         margin-left: 20px;
+        text-decoration: none;
     }
 
     .nav-menu.active{
