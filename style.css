@@ -49,6 +49,7 @@
     margin-left: 20px;
     cursor:pointer;
     font-size:2rem;
+    text-decoration: none;
 }
 
 .nav-menu{
@@ -163,6 +164,7 @@
         top: 20%;
         right: 5%;
         transform: translate(5%, 20%);
+        color: var(--white);
     }
 
     .menu-toggle .bar {
@@ -444,7 +446,6 @@ html, body {
     flex-wrap: wrap;
     justify-content: left;
     z-index: 2;
-
 }
 
 .footer-container a:hover {
@@ -455,7 +456,7 @@ html, body {
 /* mobile */
 @media (pointer:none), (pointer:coarse) {
     .footer-container a {
-        margin-right: 0.6rem
+        margin-right: 0.8rem
     }
     .footer {
         margin: 2rem;
