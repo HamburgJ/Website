@@ -383,7 +383,6 @@
     }
 }
 .project-card-container{
-    /*background-color: var(--darkgray);*/
     padding: 10px;
 }
 
@@ -411,6 +410,19 @@ html, body {
 }
 
 /*footer*/
+.footer-container a {
+    color: var(--darkgray);
+    text-decoration: none;
+    margin-right: 2.27rem;
+    margin-top: 17px;
+    display:grid;
+}
+
+@media (pointer:none), (pointer:coarse) {
+    .footer-container a {
+        margin-right:1rem;
+    }
+}
 .footer-container{
     background-color: var(--muk);
     padding-bottom: 3rem;
@@ -430,14 +442,6 @@ html, body {
     justify-content: left;
     z-index: 2;
 
-}
-
-.footer-container a {
-    color: var(--darkgray);
-    text-decoration: none;
-    margin-right: 2.27rem;
-    margin-top: 17px;
-    display:grid;
 }
 
 .footer-container a:hover {
