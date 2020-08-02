@@ -418,11 +418,6 @@ html, body {
     display:grid;
 }
 
-@media (pointer:none), (pointer:coarse) {
-    .footer-container{
-        height: 100%;
-    }
-}
 .footer-container{
     background-color: var(--muk);
     padding-bottom: 3rem;
@@ -449,4 +444,13 @@ html, body {
     transition: 0.3s ease-out;
 }
 
+/* mobile */
+@media (pointer:none), (pointer:coarse) {
+    .footer-container a {
+        margin-right: 0.4rem
+    }
+    .footer {
+        margin: 0.2rem;
+    }
+}
 
