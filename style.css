@@ -447,10 +447,10 @@ html, body {
 /* mobile */
 @media (pointer:none), (pointer:coarse) {
     .footer-container a {
-        margin-right: 0.4rem
+        margin-right: 0.6rem
     }
     .footer {
-        margin: 0.2rem;
+        margin: 0.4rem;
     }
 }
 
