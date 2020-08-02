@@ -419,8 +419,8 @@ html, body {
 }
 
 @media (pointer:none), (pointer:coarse) {
-    .footer-container a {
-        margin-right:1rem;
+    .footer-container{
+        height: 100%;
     }
 }
 .footer-container{
