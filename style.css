@@ -99,10 +99,6 @@
         position: relative;
     }
 
-    .span{
-        color: var(--white);
-    }
-    
     .nav-menu {
         display: grid;
         grid-template-columns: auto;
@@ -176,7 +172,6 @@
         display: block;
         cursor: pointer;
         color: var(--white);
-
     }
 
     .menu-toggle:hover {
@@ -461,10 +456,10 @@ html, body {
 /* mobile */
 @media (pointer:none), (pointer:coarse) {
     .footer-container a {
-        margin-right: 0.8rem
+        margin-right: 0.7rem
     }
     .footer {
-        margin: 2rem;
+        margin: 1rem;
     }
 }
 
