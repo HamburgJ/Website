@@ -220,7 +220,7 @@
     min-height: calc(100vh - 136px);
 }
 .main-long{
-    min-height: calc(100vh - 148px);
+    min-height: calc(100vh - 138px);
 }
 
 @media (min-width: 768px) {
@@ -239,7 +239,7 @@
         width: 50%
     }
 }
-@media (max-height: 682px) {
+@media (max-height: 600px) {
     #main-img{
         width: 0;
         height: 0;
