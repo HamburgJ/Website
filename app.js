@@ -6,9 +6,6 @@ menu.addEventListener("click", function(){
     menuLinks.classList.toggle("active");
 })
 
-
-
-
 const particles = [];
 function setup() {
     var canvas = createCanvas(window.innerWidth, window.innerHeight);
